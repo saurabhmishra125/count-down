@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+   height: 100vh;
+   background-image: url("img_parallax1.jpg");
+   background-position: center;
+   background-size: cover;
+   color: #e80c0c;
+   font-family: 'Protest Revolution', sans-serif;
+   font-size:30px ;
+   text-align: center;
+   text-shadow: 4px 2px 1px rgb(0, 0, 0);
+   
+}
+/* .container::before{
+  content: " ";
+  background-color: rgb(78 192 196 / 25%);
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+} */
+.container h2{
+    padding-top: 50px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    
+    font-family: 'Protest Guerrilla', sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+    width: 60%;
+    margin: auto;
+    padding-top: 30px;
+    
+}
+.col input{
+    display: block;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+}
+#time{
+  color: blue;
+}
